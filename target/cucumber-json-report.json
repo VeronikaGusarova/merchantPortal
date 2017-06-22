@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2533395327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Open Create New Account Page",
+        "description": "",
+        "id": "opencreatenewaccountpage;open-create-new-account-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2310085247,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2734273914,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open MerchantPortal Home Page",
+            "match": {
+              "location": "OpenCreateNewAccountPageSteps.i_have_opened_MerchantPortal_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 768996918,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click StartTakingPayments button",
+            "match": {
+              "location": "OpenCreateNewAccountPageSteps.i_click_StartTakingPayments_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8833765,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see StartTakingPayments page",
+            "match": {
+              "location": "OpenCreateNewAccountPageSteps.i_see_StartTakingPayments_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OpenCreateNewAccountPage",
+    "description": "I want to check that Create New Account page can be opened from Log In panel",
+    "id": "opencreatenewaccountpage",
+    "keyword": "Feature",
+    "uri": "OpenCreateNewAccountPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@closeDriver"
+      }
+    ]
+  }
+]
