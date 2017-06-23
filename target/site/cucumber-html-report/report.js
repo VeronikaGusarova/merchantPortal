@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2533395327,
+  "duration": 2599993469,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "OpenCreateNewAccountPageSteps.i_have_opened_MerchantPortal_Home_Page()"
 });
 formatter.result({
-  "duration": 2734273914,
+  "duration": 837036565,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenCreateNewAccountPageSteps.i_click_StartTakingPayments_button()"
 });
 formatter.result({
-  "duration": 768996918,
+  "duration": 1488016384,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenCreateNewAccountPageSteps.i_see_StartTakingPayments_page()"
 });
 formatter.result({
-  "duration": 8833765,
+  "duration": 250482523,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2310085247,
+  "duration": 70682250,
   "status": "passed"
 });
 });

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="21" started-at="2017-06-21T13:18:35Z" finished-at="2017-06-21T13:18:35Z">
+  <suite name="Surefire suite" duration-ms="19" started-at="2017-06-23T08:48:43Z" finished-at="2017-06-23T08:48:43Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="21" started-at="2017-06-21T13:18:35Z" finished-at="2017-06-21T13:18:35Z">
+    <test name="Surefire test" duration-ms="19" started-at="2017-06-23T08:48:43Z" finished-at="2017-06-23T08:48:43Z">
       <class name="com.epam.nwi.merchant_portal_at.AppTest">
-        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="6" started-at="2017-06-21T17:18:35Z" finished-at="2017-06-21T17:18:35Z">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="6" started-at="2017-06-23T12:48:43Z" finished-at="2017-06-23T12:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
