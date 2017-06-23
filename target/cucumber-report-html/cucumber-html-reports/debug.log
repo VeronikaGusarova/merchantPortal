@@ -6,3 +6,7 @@
 [0622/160401.938:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en-US
 [0622/160401.938:INFO:rc_l10n_handler.cc(180)] Retrying after adjustments: en-US
 [0622/160401.938:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en
+[0623/140811.207:INFO:rc_l10n_handler.cc(131)] Language not in the available languages list: en-US
+[0623/140811.207:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en-US
+[0623/140811.207:INFO:rc_l10n_handler.cc(180)] Retrying after adjustments: en-US
+[0623/140811.207:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en
