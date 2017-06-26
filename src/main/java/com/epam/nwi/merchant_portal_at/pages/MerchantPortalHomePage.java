@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MerchantPortalHomePage extends BasePage {
-	@FindBy(className = "btn-primary1")
+	@FindBy(className = "btn-primary")
 	public WebElement createAccountLink;
 
 	public MerchantPortalHomePage() {
