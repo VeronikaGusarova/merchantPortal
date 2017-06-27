@@ -12,12 +12,12 @@ public class Hook {
 
 	public static WebDriver _webDriver;
 
-	@Before
+	@Before()
 	public static void init() {
 		_webDriver = Driver.getWebDriver();
 	}
 
-	@After("@closeDriver")
+	@After()
 	public static void close() {
 		Driver.getWebDriver().close();
 	}
