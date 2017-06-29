@@ -116,24 +116,21 @@ public class MerchantPortalHomePage extends BasePage {
 		switch (fieldName) {
 		case "Email": {
 			controlLocator = By.id("login");
-			controlErrorLocator = By.xpath("input[@id='login']/following::small");
+			controlErrorLocator = By.xpath("//input[@id='login']/following::small");
 			break;
 		}
 		case "Password": {
 			controlLocator = By.id("password");
-			controlErrorLocator = By.cssSelector("input[@id='password']/following::small");
+			controlErrorLocator = By.cssSelector("//input[@id='password']/following::small");
 			break;
 		}
 		default:
 			throw new Exception("Unexpected field name " + fieldName);
 		}
-		System.out.println("errors count" + _driver.findElements(controlErrorLocator).size());
-		System.out.println("error text " + _driver.findElement(controlErrorLocator).getText());
-		System.out.println(
-				"class text " + _driver.findElement(controlLocator).findElement(By.xpath("/..")).getAttribute("class"));
-		return _driver.findElements(controlLocator).size() == 1 && _driver.findElements(controlErrorLocator).size() == 1
+		
+		return _driver.findElements(controlLocator).size() == 1
 				&& _driver.findElement(controlErrorLocator).getText().equals(errorText)
-				&& _driver.findElement(controlLocator).findElement(By.xpath("/..")).getAttribute("class")
+				&& _driver.findElement(controlLocator).findElement(By.xpath("..")).getAttribute("class")
 						.contains("field-error");
 	}
 }
