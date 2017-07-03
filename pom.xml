@@ -56,7 +56,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jdk.level>1.8</jdk.level>
+		<jdk.level>1.7</jdk.level>
 	</properties>
 
 	<dependencies>
